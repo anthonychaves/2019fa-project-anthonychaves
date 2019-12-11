@@ -2,7 +2,14 @@
 ## A CSCI-E-29 Project
 #### by Anthony Chaves
 
-This project is an effort to ease the learning curve for those new to using Python for data science.  The aim is to provide an overview of the current Python ecosystem and the tools currently in favor with Python-friendly data scientists.  
+This project is an effort to ease the learning curve for those new to using Python for data science.  The aim is to provide an overview of the current Python ecosystem and the tools currently in favor with Python-friendly data scientists.  The goal of this project is to help you be a good Python developer.  We will examine several tools that are part of this practice, including:
+* The Python command line environment
+* The PyCharm IDE
+* Creating and destroying Python virtual environments
+* Python module and package management
+* Good practices using git as part of your development workflow
+* Testing with PyTest
+* Interactive debugging using the PyCharm debugger
 
 * Python Runtime Environment
   * Python Virtual machine overview
@@ -11,6 +18,40 @@ This project is an effort to ease the learning curve for those new to using Pyth
   * pipenv.lock file, why we check this in, how to modify it
   * all pipenv commands, especially pipenv --rm, and why
   * how to use each type of python installation (which binary executable is called?)
+  * python program execution - as main, as module
+
+* Starting from fresh install:
+  * Commands to know:
+    * python3
+    * which python
+    * python3 --version
+    * python3 --help
+    * Modify .bashrc for convenience: alias python=python3, exit terminal or restart bash
+    * alias python=python3
+    * export PATH=$HOME/.local/bin:$PATH  
+    * sudo apt list python-pip
+    * sudo apt list python3-pip
+    * sudo apt install python3-pip
+    * pip (wrong command, not installed)
+    * pip3
+    * python -m pip install --help
+    * python -m pip install --user pipenv
+    * ls -lh ~/.local/bin/* (directory where python/pipenv and all other commands are installed)
+    * ls -lh ~/.local/lib/python3.6/site-packages/ (directory where virtual environments are created and libraries/modules are installed)
+    * pip (this command no longer works!  pipenv broke it.)
+    * how do we safely remove pipenv/pip?
+    * sudo apt remove python3-pip
+    * rm -rf ~/.local/lib/python3.6/*
+    * sudo apt install python3-pip
+    * python3 -m pip install --user pipenv
+
+    https://pypi.org/project/pytest/
+
+    * ls -lh ~/.local/bin (pipenv installed commands, into our PATH)
+    * ls -lh ~/.local/lib/python3.6/site-packages/ (pipenv installed some packages)
+    * ls -lh ~/.local/share/virtualenvs/ (pipenv created a virtualenv for our project, this is where its packages live)
+    * Creating Pipfile: pipenv install
+    * Look at the output: Pipfile, Pipfile.lock.  What are these and why?
 
 * pipenv
   * what problems does it solve?
