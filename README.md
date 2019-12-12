@@ -47,11 +47,18 @@ This project is an effort to ease the learning curve for those new to using Pyth
 
     https://pypi.org/project/pytest/
 
+    * mkdir csci-e-29
+    * cd csci-e-29
     * ls -lh ~/.local/bin (pipenv installed commands, into our PATH)
     * ls -lh ~/.local/lib/python3.6/site-packages/ (pipenv installed some packages)
     * ls -lh ~/.local/share/virtualenvs/ (pipenv created a virtualenv for our project, this is where its packages live)
     * Creating Pipfile: pipenv install
     * Look at the output: Pipfile, Pipfile.lock.  What are these and why?
+    * pipfile --rm
+    * ls -lh ~/.local/share/virtualenvs/ (verify the virtualenv directory was removed)
+    * pipenv install
+    * ls -lh ~/.local/share/virtualenvs/ (verify the virtualenv directory exists)
+    * pipenv install --dev pytest pytest-cov
 
 * pipenv
   * what problems does it solve?
