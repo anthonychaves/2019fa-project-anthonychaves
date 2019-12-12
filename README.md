@@ -73,6 +73,10 @@ This project is an effort to ease the learning curve for those new to using Pyth
   * how to find python executable used by pipenv
   * how to use pipenv from pycharm for pipenv shell, also from command line
 
+* Python: writing a descriptor
+* Python: testing a descriptor
+* Python: Debugging a descriptor
+
 * git
   * commands (init, add file, add directory, commit, commit message, branch, merge)
   * branching workflows
