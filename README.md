@@ -60,6 +60,57 @@ This project is an effort to ease the learning curve for those new to using Pyth
     * ls -lh ~/.local/share/virtualenvs/ (verify the virtualenv directory exists)
     * pipenv install --dev pytest pytest-cov
 
+    * classes: PositiveDefinite example
+    * Python package/module
+    * how to define package/module
+    * how to include __main__ and run as module
+    * cd src
+    * python -m sandbox
+    * if __name__ == "__main__" evaluates to TRUE, so the block runs (include link to this in official python documentation)
+    * test directory and structure
+    * pytest command line
+    * pytest how to call right module path
+    * pycharm ctrl+k
+    * pycharm reformat file
+    * export PYTHONPATH=./src
+    * PYTHONPATH=./src in PyCharm terminal settings
+    * run pytest on the command line after settings
+
+    * Python: writing a descriptor
+    * Python: testing a descriptor
+    * Python: Debugging a descriptor
+
+    * git
+      * commands (init, add file, add directory, commit, commit message, branch, merge)
+      * branching workflows
+      * remote origin push fetch
+      * the --allow-unrelated-histories method is kind of an antipattern.
+
+    * debugging
+      * execution (main) vs. testing
+      * breakpoints
+      * using debugger in pycharm
+      * inspecting variables
+      * watching expressions
+
+    * testing
+      * pytest
+      * testing frameworks (UnitTest - which framework?)
+
+    * Putting it all together: development mantra
+      * console/debugger
+      * write test: how do i call this?
+      * docstring, just write input types, semantic meaning, output type
+      * run test, watch it fail
+      * implement method, run test, watch it fail
+      * implement success, run test, watch it fail, because we haven't put the correct expected results in yet.
+      * copy actual to expected, if that's correct
+      * tests prove that it actually "works for me"
+      * commit test, code, and documentation to git
+      * move on to the next step
+
+================================================================
+
 * pipenv
   * what problems does it solve?
   * what problems does it introduce?
@@ -73,37 +124,6 @@ This project is an effort to ease the learning curve for those new to using Pyth
   * how to find python executable used by pipenv
   * how to use pipenv from pycharm for pipenv shell, also from command line
 
-* Python: writing a descriptor
-* Python: testing a descriptor
-* Python: Debugging a descriptor
 
-* git
-  * commands (init, add file, add directory, commit, commit message, branch, merge)
-  * branching workflows
-  * remote origin push fetch
-  * the --allow-unrelated-histories method is kind of an antipattern.
-
-* debugging
-  * execution (main) vs. testing
-  * breakpoints
-  * using debugger in pycharm
-  * inspecting variables
-  * watching expressions
 
 * dataframe: what is it?
-
-* testing
-  * pytest
-  * testing frameworks (UnitTest - which framework?)
-
-* Putting it all together: development mantra
-  * console/debugger
-  * write test: how do i call this?
-  * docstring, just write input types, semantic meaning, output type
-  * run test, watch it fail
-  * implement method, run test, watch it fail
-  * implement success, run test, watch it fail, because we haven't put the correct expected results in yet.
-  * copy actual to expected, if that's correct
-  * tests prove that it actually "works for me"
-  * commit test, code, and documentation to git
-  * move on to the next step
