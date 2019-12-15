@@ -4,8 +4,8 @@ class PositiveDefinite(object):
     definitely a positive integer value.
     """
 
-    def __init__(self):
-        pass
+    def __init__(self, initval=1):
+        self.value = initval
 
     def __get__(self, instance, owner):
         return self.value
