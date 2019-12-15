@@ -1,10 +1,17 @@
 class PositiveDefinite(object):
+    """
+    PositiveDefinite holds a value that is
+    definitely a positive integer value.
+    """
 
     def __init__(self):
-        raise NotImplementedError
+        pass
 
     def __get__(self, instance, owner):
-        raise NotImplementedError
+        return self.value
 
     def __set__(self, instance, value):
-        raise NotImplementedError
+        if type(value) is int and value > 0:
+            self.value = value
+        else:
+            raise ValueError("Value is definitely not positive.")
