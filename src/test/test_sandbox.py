@@ -12,6 +12,7 @@ class TestSandbox(TestCase):
     def test_sandbox(self):
         class MyModel:
             a = PositiveDefinite()
+            b = PositiveDefinite(100)
 
         mm = MyModel()
 
@@ -33,3 +34,6 @@ class TestSandbox(TestCase):
 
         self.assertEqual(1, len(e.value.args))
         self.assertEqual("Value is definitely not positive.", e.value.args[0])
+
+        # We need to exercise the initval assignment
+        self.assertEqual(100, mm.b, "Descriptor default initval")
