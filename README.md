@@ -92,6 +92,7 @@ This project is an effort to ease the learning curve for those new to using Pyth
       * using debugger in pycharm
       * inspecting variables
       * watching expressions
+      * emphasis on code that is simple to run and test, not a lot of boilerplate, unlike luigi/django
 
     * testing
       * pytest
