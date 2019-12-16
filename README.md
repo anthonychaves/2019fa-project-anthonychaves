@@ -3,16 +3,15 @@
 #### by Anthony Chaves
 
 This project is an effort to ease the learning curve for those new to using Python for data science.  The aim is to provide an overview of the current Python ecosystem and the tools currently in favor with Python-friendly data scientists.  The goal of this project is to help you be a good Python developer.  We will examine several tools that are part of this practice, including:
-* The Python command line environment
-* The PyCharm IDE
-* Creating and destroying Python virtual environments
-* Python module and package management
-* Good practices using git as part of your development workflow
-* Testing with PyTest
-* Interactive debugging using the PyCharm debugger
+  * The Python command line environment
+  * The PyCharm IDE
+  * Creating and destroying Python virtual environments
+  * Python module and package management
+  * Good practices using git as part of your development workflow
+  * Testing with PyTest
+  * Interactive debugging using the PyCharm debugger
 
-* Python Runtime Environment
-  * Python Virtual machine overview
+
   * python installations for developers - which python, python --version
   * system python, user python (set environment variable in bashrc), virtual environment python, focus on pipenv, include pip, conda, command line and pycharm integration with pipenv
   * pipenv.lock file, why we check this in, how to modify it
