@@ -11,7 +11,7 @@ This project is an effort to ease the learning curve for those new to using Pyth
   * Testing with PyTest
   * Interactive debugging using the PyCharm debugger
 
-
+==============
   * python installations for developers - which python, python --version
   * system python, user python (set environment variable in bashrc), virtual environment python, focus on pipenv, include pip, conda, command line and pycharm integration with pipenv
   * pipenv.lock file, why we check this in, how to modify it
