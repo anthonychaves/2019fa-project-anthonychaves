@@ -256,7 +256,7 @@ total 0
 * commit test, code, and documentation to git
 * move on to the next step
 
-[![Toward Advanced Python for Data Science](http://img.youtube.com/vi/1mRQA6JAohk/0.jpg)](http://www.youtube.com/watch?v=1mRQA6JAohk "Toward Advanced Python for Data Science")
+[![Toward Advanced Python for Data Science](http://img.youtube.com/vi/1mRQA6JAohk/0.jpg)](https://youtu.be/1mRQA6JAohk "Toward Advanced Python for Data Science")
 
 ================================================================
 
