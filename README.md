@@ -2,17 +2,31 @@
 ## A CSCI-E-29 Project
 #### by Anthony Chaves
 
-This project is an effort to ease the learning curve for those new to using Python for data science.  The aim is to provide an overview of the current Python ecosystem and the tools currently in favor with Python-friendly data scientists.  The goal of this project is to help you be a good Python developer.  The bulk of the content is delivered as section material with a 96 minute live development session.  We will examine several tools that are part of this practice, including:
+This project is an effort to ease the learning curve for those new to using Python for data science.  The aim is to provide an overview of the current Python ecosystem and the tools currently in favor with Python-friendly data scientists.  The goal of this project is to help you be a good Python developer.  The bulk of the content is delivered as section material with a 96 minute live development session.  Regarding software development practices for data science, the aim is to get on the right track and stay there.  It is not about how to debug specific errors.  The first part of this project is about the different Python distributions a data scientist may encounter on their system.  The second part is a live development exercise, showing examples of developer tools in practice.  New data scientists are encouraged to follow along.  While the sample code may not be the most interesting topic, it explores a Python language feature (Descriptors) in-depth.  The point is not the sample code itself, the point is to understand the process and best practices used to explore, develop, and test our software as data scientists.  We will examine several tools that are part of this practice, including:
   * The Python command line environment
-  * The PyCharm IDE
   * Creating and destroying Python virtual environments
   * Python module and package management
+  * The PyCharm IDE
   * Good practices using git as part of your development workflow
-  * Testing with PyTest
+  * Testing with PyTest on the command line and in the PyCharm IDE
   * Interactive debugging using the PyCharm debugger
 
-==============
-  * python installations for developers - which python, python --version
+---
+
+## Python distributions
+This section of the project describes the typical Python development scenario on a Linux distribution, specifically Ubuntu Linux.  The concepts described here are as abstract as possible, while the command line instructions are specific to Ubuntu Linux 18.04 and newer.  Data scientists using different Linux distributions, or Mac OS, or Windows have different command line procedures and installation process.  Once we have a usable Python, the live development video starts with the PyCharm IDE, where users on any platform can benefit.  The concepts of System Python, User Python and Virtual Environment Python remain the same from system to system.  
+
+### which python
+The ability to understand the nuances and complexities of modern data science starts with knowing your execution environment.  Python's history includes status as the defacto scripting language for application servers, system package managers, and software glue between disparate programs.  As such, it has become an important part of several long-standing projects.  These projects, system package managers like apt, for example, require consistency and longevity of support.  These special-purposed Pythons use specific versions of Python the language, and require specific versions of the Python interpreter.  The apt package manager requires Python 2.7.  Python 2.7 is installed on any system using the apt package manager, and is made available on the command line.  This deep integration with the system package manager leads us to call this Python the "system Python".  We can investigate what that Python is, and where it lives.  It is vital that we do not use, nor disturb, the system Python, as our development requirements are incompatable with having an immutable Python environment like the apt package manager requires.
+
+From the command line, we can learn about the system Python.
+```bash
+anthony@vision:~/projects/csci-e-29$ which python
+/usr/bin/python
+anthony@vision:~/projects/csci-e-29$ /usr/bin/python --version
+Python 2.7.17rc1
+```
+
   * system python, user python (set environment variable in bashrc), virtual environment python, focus on pipenv, include pip, conda, command line and pycharm integration with pipenv
   * pipenv.lock file, why we check this in, how to modify it
   * all pipenv commands, especially pipenv --rm, and why
@@ -22,13 +36,6 @@ This project is an effort to ease the learning curve for those new to using Pyth
 * Starting from fresh install:
   * Commands to know
 
-```bash
-anthony@vision:~/projects/csci-e-29$ which python
-/usr/bin/python
-anthony@vision:~/projects/csci-e-29$ /usr/bin/python --version
-Python 2.7.17rc1
-```
-  Wrong!
 
 ```bash
 anthony@vision:~/projects/csci-e-29$ which python3
