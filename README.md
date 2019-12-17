@@ -451,74 +451,145 @@ The following video moves on to include the PyCharm IDE.  This video demonstrate
 [![Toward Advanced Python for Data Science](http://img.youtube.com/vi/1mRQA6JAohk/0.jpg)](https://youtu.be/1mRQA6JAohk "Toward Advanced Python for Data Science")
 
 00:00 - Starting PyCharm IDE
+
 01:30 - Project structure (sandbox, test)
+
 02:30 - Python language feature - Descriptors I
+
 03:50 - PyCharm Run vs. Debug
+
 04:20 - UnitTest, Run vs. Debug, TestCase class anatomy
+
 05:40 - PyCharm code autocomplete
+
 06:20 - Running __main__ from PyCharm IDE, running __main__ from command line
+
 07:38 - pipenv shell
+
 08:18 - python vs. python -m
+
 08:40 - PyCharm settings and environment variables
+
 09:45 - PYTHONPATH environment variable
+
 10:50 - Unit testing output
+
 12:00 - Try to get unit tests to fail
+
 12:20 - "Expected vs. Actual"
+
 12:35 - Assertions I
+
 13:25 - Try to get unit tests to pass
+
 14:18 - Running unit tests from command line
+
 14:30 - pytest
+
 15:50 - pytest coverage report
+
 17:00 - Viewing coverage reports in a web browser
+
 18:30 - Git branching: master, initial, feature branches
+
 21:30 - Git history
+
 22:30 - Python language feature - Descriptors II
+
 22:50 - Test-Driven Development
+
 23:30 - Implementing a Descriptor
+
 24:40 - Iterative development: test, fail, implement, pass
+
 25:10 - Using test output to guide development
+
 26:00 - Python language feature - Descriptors III
+
 26:50 - The test case passed, but does that mean it works?
+
 27:45 - Assertions II
+
 28:10 - Python language feature - Descriptors IV
+
 28:45 - PyCharm Debugger I
+
 29:00 - Breakpoints I
+
 30:30 - Exercising code from unit tests
+
 31:00 - Reaching breakpoints
+
 31:10 - Peering in to our script at runtime
+
 32:30 - Inspecting variables
+
 34:20 - Breakpoints II
+
 34:30 - PyCharm Debugger II
+
 35:40 - Python language feature - Descriptors V
+
 38:00 - Interpreting test output I
+
 39:00 - Docstring and documenting code
+
 41:45 - Implementation
+
 41:45 - Interpreting test output II
+
 42:50 - Testing all branches
+
 43:40 - Testing for Exceptions
+
 44:30 - PyCharm "import" help
+
 45:45 - Inspecting context, variables and expressions with the debugger
+
 48:20 - Assertions III
+
 52:30 - Testing mistakes to avoid
+
 55:15 - Assertions IV
+
 56:30 - Using the debugger to write better assertions
+
 61:30 - Checking the coverage report
+
 59:00 - Watching expressions in the Debugger
+
 63:30 - Exercising descriptor __get__ method in test case
+
 66:10 - Testing beyond line coverage
+
 67:00 - Talking through the testing thought process
+
 68:40 - Documenting test cases
+
 70:20 - When to commit / what to commit
+
 72:45 - Committing changes
+
 76:30 - Git history II
+
 77:00 - Git - merging branches
+
 79:45 - Git history III
+
 81:20 - Iteration Two: Back to feature branch
+
 82:10 - Merging changes from master out to feature branch
+
 83:50 - Git history IV
+
 83:10 - Continuing development
+
 84:20 - Continuing testing, test for more than line coverage
+
 91:00 - Committing iteration 2
+
 92:15 - Merging iteration 2 to master
+
 93:15 - Git history V
+
 94:55 - Review
