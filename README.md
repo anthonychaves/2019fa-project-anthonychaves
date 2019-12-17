@@ -448,7 +448,7 @@ python -m pip install --user pipenv
 
 The following video moves on to include the PyCharm IDE.  This video demonstrates good practices for data science using the Python ecosystem.  Many topics are included in this video.  See below the video for topic timestamps.
 
-[![Toward Advanced Python for Data Science](http://img.youtube.com/vi/1mRQA6JAohk/0.jpg)](https://youtu.be/1mRQA6JAohk "Toward Advanced Python for Data Science")
+[![Toward Advanced Python for Data Science](http://img.youtube.com/vi/1mRQA6JAohk/0.jpg)](https://youtu.be/1mRQA6JAohk?t=0 "Toward Advanced Python for Data Science")
 
 00:00 - Starting PyCharm IDE
 
