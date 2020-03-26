@@ -1,6 +1,6 @@
 # Toward Advanced Python for Data Science
 ## A CSCI-E-29 Project
-#### by Anthony Chaves
+#### by Anthony Keys
 
 This project is an effort to ease the learning curve for those new to using Python for data science.  The aim is to provide an overview of the current Python ecosystem and the tools currently in favor with Python-friendly data scientists.  The goal of this project is to help you be a good Python developer.  The bulk of the content is delivered as section material with a 96 minute live development session.  Regarding software development practices for data science, the aim is to get on the right track and stay there.  It is not about how to debug specific errors.  The first part of this project is about the different Python distributions a data scientist may encounter on their system.  The second part is a live development exercise, showing examples of developer tools in practice.  New data scientists are encouraged to follow along.  While the sample code may not be the most interesting topic, it explores a Python language feature (Descriptors) in-depth.  The point is not the sample code itself, the point is to understand the process and best practices used to explore, develop, and test our software as data scientists.  We will examine several tools that are part of this practice, including:
   * The Python command line environment
